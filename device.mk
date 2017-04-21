@@ -17,5 +17,8 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PACKAGES += \
     telephony-ext
 
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 # Call proprietary blob setup
 $(call inherit-product-if-exists, vendor/oppo/RMX1801/RMX1801-vendor.mk)
