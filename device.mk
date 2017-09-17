@@ -128,6 +128,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     lineage.touch@1.0-service.oppo_RMX1801
 
+# USB
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service.basic
+
 # WiFi
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:system/etc/WCNSS_qcom_cfg.ini \
