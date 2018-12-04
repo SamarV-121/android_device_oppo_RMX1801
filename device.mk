@@ -10,6 +10,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
+# IMS
+PRODUCT_PACKAGES += \
+    ims-ext-common
+
 # Input
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
