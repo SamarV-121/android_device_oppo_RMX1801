@@ -20,6 +20,10 @@ DEVICE_PATH := device/oppo/RMX1801
 PRODUCT_PACKAGES += \
     audio.a2dp.default
 
+# IMS
+PRODUCT_PACKAGES += \
+    ims-ext-common
+	
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
