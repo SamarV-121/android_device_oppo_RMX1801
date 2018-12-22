@@ -7,6 +7,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.cne.feature=1
 
+# Memory optimizations
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.qti.sys.fw.bservice_enable=true
+
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.core_ctl_max_cpu=4 \
