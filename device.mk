@@ -67,7 +67,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    power.qcom
+    power.qcom:64
 
 # RCS
 PRODUCT_PACKAGES += \
