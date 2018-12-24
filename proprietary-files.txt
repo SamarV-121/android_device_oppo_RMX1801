@@ -54,6 +54,14 @@ lib64/vendor.oppo.hardware.biometrics.fingerprint@2.1.so
 lib/vendor.qti.hardware.fingerprint@1.0.so
 lib64/vendor.qti.hardware.fingerprint@1.0.so
 
+# Media
+lib64/libmmosal.so
+lib/extractors/libmmparser.so
+lib/libFileMux.so
+lib/libmmosal.so
+lib/libmmparser_lite.so
+lib/libOmxMux.so
+
 # QMI
 etc/permissions/qti_libpermissions.xml|ef3c88495f2f61a2d16e1445113a9d80f8db0e0a
 etc/permissions/qti_permissions.xml
@@ -90,3 +98,35 @@ lib64/libimscamera_jni.so|133fec4e7be337eb255eb226c4ff96ae53b94be7
 lib64/libimsmedia_jni.so|17a2cb31fb5960769b4c2c0636fffe721c4f2a74
 lib64/librcc.so|96c467ec6b7ea03b77cda3b88fb36a56c196aaa8
 lib64/vendor.qti.imsrtpservice@1.0.so|559a2dbf409d86746ed4303f2e0089256bb91a07
+
+# WiFi Display
+bin/wfdservice
+etc/init/wfdservice.rc
+etc/wfdconfig.xml
+etc/wfdconfigsink.xml
+-framework/WfdCommon.jar
+lib/com.qualcomm.qti.wifidisplayhal@1.0.so
+lib/libdisplayconfig.so
+lib/libmmrtpdecoder.so
+lib/libmmrtpencoder.so
+lib/libqdMetaData.system.so
+lib/libwfdavenhancements.so
+lib/libwfdclient.so
+lib/libwfdcodecv4l2.so
+lib/libwfdcommonutils.so
+lib/libwfdconfigutils.so
+lib/libwfdmminterface.so
+lib/libwfdmmsink.so
+lib/libwfdmmsrc.so
+lib/libwfdnative.so
+lib/libwfdrtsp.so
+lib/libwfdservice.so
+lib/libwfdsm.so
+lib/libwfduibcinterface.so
+lib/libwfduibcsink.so
+lib/libwfduibcsinkinterface.so
+lib/libwfduibcsrc.so
+lib/libwfduibcsrcinterface.so
+lib64/libwfdclient.so
+lib64/libwfdnative.so
+-priv-app/WfdService/WfdService.apk

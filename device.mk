@@ -34,7 +34,8 @@ PRODUCT_COPY_FILES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    libvulkan
+    libvulkan \
+    vendor.display.config@1.0
 
 # IMS
 PRODUCT_PACKAGES += \
@@ -73,3 +74,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
+
+# WiFi Display
+PRODUCT_BOOT_JARS += \
+    WfdCommon
