@@ -115,6 +115,9 @@ lib64/libimsmedia_jni.so|17a2cb31fb5960769b4c2c0636fffe721c4f2a74
 lib64/librcc.so|96c467ec6b7ea03b77cda3b88fb36a56c196aaa8
 lib64/vendor.qti.imsrtpservice@1.0.so|559a2dbf409d86746ed4303f2e0089256bb91a07
 
+# SDM
+lib64/libsdm-disp-apis.so
+
 # WiFi Display
 bin/wfdservice
 etc/init/wfdservice.rc

@@ -65,6 +65,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.oppo_RMX1801
 
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    lineage.livedisplay@1.0-service-sdm
+
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
