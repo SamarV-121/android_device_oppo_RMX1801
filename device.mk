@@ -86,5 +86,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# Trust HAL
+PRODUCT_PACKAGES += \
+    lineage.trust@1.0-service
+
 # Call proprietary blob setup
 $(call inherit-product-if-exists, vendor/oppo/RMX1801/RMX1801-vendor.mk)
