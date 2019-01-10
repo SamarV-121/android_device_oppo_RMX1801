@@ -22,6 +22,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.hw=1 \
     debug.sf.latch_unsignaled=1
 
+# HAL1 apps list
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android
+
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.dbg.volte_avail_ovr=1 \
