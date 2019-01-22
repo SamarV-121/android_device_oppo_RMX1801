@@ -94,6 +94,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# Touch
+PRODUCT_PACKAGES += \
+    lineage.touch@1.0-service.oppo_RMX1801
+
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl \
