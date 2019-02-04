@@ -79,6 +79,9 @@ lib64/com.quicinc.cne.server@1.0.so
 lib64/vendor.qti.hardware.data.latency@1.0.so
 -priv-app/CNEService/CNEService.apk
 
+# Display postprocessing
+lib64/vendor.display.color@1.0.so
+
 # Media
 lib64/libmmosal.so
 lib/extractors/libmmparser.so
