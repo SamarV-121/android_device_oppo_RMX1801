@@ -70,6 +70,9 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/recovery.fstab
 
+# Root
+BOARD_ROOT_EXTRA_FOLDERS := bt_firmware dsp firmware persist
+
 # Vendor
 TARGET_COPY_OUT_VENDOR := vendor
 
