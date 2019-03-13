@@ -23,3 +23,7 @@ PRODUCT_PACKAGES += \
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
+	
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext
