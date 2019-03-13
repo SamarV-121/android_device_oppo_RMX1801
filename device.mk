@@ -2,6 +2,10 @@
 PRODUCT_PACKAGES += \
     audio.a2dp.default
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
