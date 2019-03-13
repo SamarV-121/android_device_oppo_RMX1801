@@ -74,6 +74,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/recovery.fstab
 BOARD_ROOT_EXTRA_FOLDERS := bt_firmware dsp firmware persist
 
 # SELinux
+BOARD_SEPOLICY_VERS := $(PLATFORM_SDK_VERSION).0
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/qcom/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += device/qcom/sepolicy/public
