@@ -6,20 +6,22 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
-# Net
+# HIDL
 PRODUCT_PACKAGES += \
-    netutils-wrapper-1.0
+    android.hidl.base@1.0 \
+    android.hidl.manager@1.0
 
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common
 
-PRODUCT_PACKAGES += \
-    android.hidl.base@1.0
-
 # Input
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
+
+# Net
+PRODUCT_PACKAGES += \
+    netutils-wrapper-1.0
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
