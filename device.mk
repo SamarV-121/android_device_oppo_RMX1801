@@ -57,6 +57,10 @@ PRODUCT_COPY_FILES += \
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
 
+ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+endif
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
