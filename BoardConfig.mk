@@ -75,6 +75,7 @@ BOARD_ROOT_EXTRA_FOLDERS := bt_firmware dsp firmware persist
 
 # SELinux
 BOARD_SEPOLICY_VERS := $(PLATFORM_SDK_VERSION).0
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/qcom/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += device/qcom/sepolicy/public

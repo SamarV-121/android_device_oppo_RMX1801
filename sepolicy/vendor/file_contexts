@@ -1,0 +1,2 @@
+/(vendor|system/vendor)/bin/init\.oppo\.fingerprints\.sh		u:object_r:oppo_fingerprints_init_shell_exec:s0
+

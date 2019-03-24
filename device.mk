@@ -1,3 +1,12 @@
+# Alipay & WeChat fingerprint payment
+PRODUCT_PACKAGES += \
+    ifaamanager \
+    soter
+
+PRODUCT_BOOT_JARS += \
+    ifaamanager \
+    soter
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     audio.a2dp.default
