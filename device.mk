@@ -7,6 +7,9 @@ PRODUCT_BOOT_JARS += \
     ifaamanager \
     soter
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/ifaamanager/etc/org.ifaa.android.manager.permissions.xml:system/etc/permissions/org.ifaa.android.manager.permissions.xml
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     audio.a2dp.default
