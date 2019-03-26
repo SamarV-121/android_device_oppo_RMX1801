@@ -1,0 +1,4 @@
+<permissions>
+    <feature name="android.hardware.fingerprint" />
+    <feature name="oppo.back.touch.fingerprint.sensor" />
+</permissions>
