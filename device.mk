@@ -29,6 +29,10 @@ PRODUCT_PACKAGES += \
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common
+
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.light@2.0-service.oppo_RMX1801
 	
 # Net
 PRODUCT_PACKAGES += \
