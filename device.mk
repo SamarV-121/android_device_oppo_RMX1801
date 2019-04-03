@@ -26,6 +26,9 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PACKAGES += \
     audio.a2dp.default
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/audio/audio_policy_configuration.xml:system/etc/audio_policy_configuration.xml
+	
 # Display
 PRODUCT_PACKAGES += \
     libvulkan
@@ -64,6 +67,6 @@ endif
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
-	
+
 PRODUCT_BOOT_JARS += \
     telephony-ext
