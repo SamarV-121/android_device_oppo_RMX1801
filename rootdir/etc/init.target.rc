@@ -2,3 +2,4 @@ import /vendor/etc/init/hw/init.oppo.fingerprints.rc
 
 on init
     mount none /system/etc/manifest.xml /vendor/manifest.xml bind
+    mount none /system/etc/audio_policy_configuration.xml /vendor/etc/audio/audio_policy_configuration.xml bind
