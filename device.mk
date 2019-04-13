@@ -49,6 +49,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
 
+# Keyhandler
+PRODUCT_PACKAGES += \
+    ConfigPanel
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.oppo_RMX1801
