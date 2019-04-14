@@ -4,7 +4,8 @@ on init
     mount none /system/etc/manifest.xml /vendor/manifest.xml bind
     mount none /system/etc/audio_policy_configuration.xml /vendor/etc/audio/audio_policy_configuration.xml bind
     mount none /system/etc/empty /vendor/app/SmartcardService/SmartcardService.apk bind
-
+    mount none /system/etc/empty /vendor/bin/hw/vendor.oppo.hardware.biometrics.face@1.0-service bind
+ 
 on boot
 
     # Touchscreen
