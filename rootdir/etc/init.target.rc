@@ -3,3 +3,9 @@ import /vendor/etc/init/hw/init.oppo.fingerprints.rc
 on init
     mount none /system/etc/manifest.xml /vendor/manifest.xml bind
     mount none /system/etc/audio_policy_configuration.xml /vendor/etc/audio/audio_policy_configuration.xml bind
+
+on boot
+
+    # Touchscreen
+    chown system system /proc/touchpanel/double_tap_enable
+    chown 0660 /proc/touchpanel/double_tap_enable
