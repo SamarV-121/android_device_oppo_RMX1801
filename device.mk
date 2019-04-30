@@ -16,6 +16,9 @@
 
 DEVICE_PATH := device/oppo/RMX1801
 
+# Get non-open-source specific aspects
+$(call inherit-product, vendor/oppo/RMX1801/RMX1801-vendor.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
