@@ -60,6 +60,9 @@ ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 endif
 
+# System properties
+-include $(LOCAL_PATH)/system_prop.mk
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
