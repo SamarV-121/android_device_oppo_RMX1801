@@ -6,6 +6,7 @@ on init
     mount none /system/etc/empty /vendor/app/SmartcardService/SmartcardService.apk bind
     mount none /system/etc/empty /vendor/bin/hw/vendor.oppo.hardware.biometrics.face@1.0-service bind
     mount none /fstab.qcom /vendor/etc/fstab.qcom bind
+    mount none /init.msm.usb.configfs.rc /vendor/etc/init/init.msm.usb.configfs.rc bind
  
 on boot
 

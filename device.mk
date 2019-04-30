@@ -24,7 +24,8 @@ PRODUCT_PACKAGES += \
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.target.rc \
-    fstab.qcom
+    fstab.qcom \
+    init.msm.usb.configfs.rc
 
 # Doze
 PRODUCT_PACKAGES += \
