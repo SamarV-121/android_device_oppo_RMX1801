@@ -64,7 +64,7 @@ PRODUCT_PACKAGES += \
 # Misc
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/empty:system/etc/empty
-	
+
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0

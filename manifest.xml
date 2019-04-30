@@ -399,15 +399,6 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>android.frameworks.faceservice</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IFaceHalService</name>
-            <instance>faceservice</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
         <name>android.frameworks.fingerprintservice</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -422,15 +413,6 @@
         <version>2.1</version>
         <interface>
             <name>IBiometricsFingerprint</name>
-            <instance>default</instance>
-        </interface>
-    </hal>	
-    <hal format="hidl">
-        <name>vendor.oppo.hardware.biometrics.face</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IBiometricsFace</name>
             <instance>default</instance>
         </interface>
     </hal>
