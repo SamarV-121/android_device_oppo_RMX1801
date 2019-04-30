@@ -1,2 +1,4 @@
+import /vendor/etc/init/hw/init.oppo.fingerprints.rc
+
 on init
     mount none /system/etc/manifest.xml /vendor/manifest.xml bind
