@@ -16,6 +16,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.dpm.feature=11
 
+# Perf
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.qti.core_ctl_max_cpu=4 \
+    ro.vendor.qti.core_ctl_min_cpu=2
+
 # Wifi display
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.debug.wfd.enable=1 \
