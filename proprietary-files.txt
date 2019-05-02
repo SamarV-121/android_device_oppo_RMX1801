@@ -94,6 +94,30 @@ lib/vendor.qti.hardware.data.latency@1.0.so
 lib64/libvendorconn.so
 lib64/vendor.qti.hardware.data.latency@1.0.so
 
+# DPM
+-priv-app/dpmserviceapp/dpmserviceapp.apk
+bin/dpmd
+etc/dpm/dpm.conf
+etc/dpm/nsrm/NsrmConfiguration.xml
+etc/init/dpmd.rc
+etc/permissions/com.qti.dpmframework.xml
+etc/permissions/dpmapi.xml
+framework/com.qti.dpmframework.jar
+framework/dpmapi.jar
+framework/tcmclient.jar
+lib/com.qualcomm.qti.dpm.api@1.0.so
+lib/libdpmctmgr.so
+lib/libdpmfdmgr.so
+lib/libdpmframework.so
+lib/libdpmnsrm.so
+lib/libdpmtcm.so
+lib64/com.qualcomm.qti.dpm.api@1.0.so
+lib64/libdpmctmgr.so
+lib64/libdpmfdmgr.so
+lib64/libdpmframework.so
+lib64/libdpmnsrm.so
+lib64/libdpmtcm.so
+
 # Factory
 lib/vendor.qti.hardware.factory@1.0.so
 lib64/vendor.qti.hardware.factory@1.0.so
