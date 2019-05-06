@@ -13,3 +13,6 @@ on boot
     # Touchscreen
     chown system system /proc/touchpanel/double_tap_enable
     chown 0660 /proc/touchpanel/double_tap_enable
+
+    # OTG
+    write /sys/class/power_supply/usb/otg_switch 1
