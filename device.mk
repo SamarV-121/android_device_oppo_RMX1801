@@ -46,7 +46,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml \
     $(LOCAL_PATH)/permissions/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml
-	
+
+# System properties
+-include $(LOCAL_PATH)/system_prop.mk
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
