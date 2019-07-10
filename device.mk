@@ -26,6 +26,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PACKAGES += \
     audio.a2dp.default
 
+# Display
+PRODUCT_PACKAGES += \
+    libvulkan
+	
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common
