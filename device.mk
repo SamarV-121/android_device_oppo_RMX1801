@@ -91,7 +91,8 @@ PRODUCT_BOOT_JARS += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    libnl
+    libnl \
+    libwfdaac
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
