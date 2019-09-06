@@ -1,3 +1,9 @@
+# Assertive display
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.qcom.ad=1 \
+    ro.qcom.ad.sensortype=2 \
+    ro.qcom.ad.calib.data=/vendor/etc/OPPO_OLED_AD_calib.cfg
+
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
    ro.config.vc_call_vol_steps=7 \
