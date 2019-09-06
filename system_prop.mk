@@ -43,7 +43,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.radio.add_power_save=1
+    persist.radio.add_power_save=1 \
+    ro.telephony.default_network=9,0
 
 # UI
 PRODUCT_PROPERTY_OVERRIDES += \
