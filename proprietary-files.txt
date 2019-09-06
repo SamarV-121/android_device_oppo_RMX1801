@@ -51,10 +51,8 @@ framework/vendor.oppo.hardware.biometrics.fingerprint-V2.1-java.jar
 framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
 lib/vendor.oppo.hardware.biometrics.fingerprint@2.1.so
 lib64/vendor.oppo.hardware.biometrics.fingerprint@2.1.so
-lib/android.frameworks.fingerprintservice@1.0.so
-lib64/android.frameworks.fingerprintservice@1.0.so
-lib/android.hardware.biometrics.fingerprint@2.1.so
-lib64/android.hardware.biometrics.fingerprint@2.1.so
+lib/vendor.qti.hardware.fingerprint@1.0.so							  
+lib64/vendor.qti.hardware.fingerprint@1.0.so
 
 # QMI
 etc/permissions/qti_libpermissions.xml
@@ -92,9 +90,3 @@ lib64/libimscamera_jni.so
 lib64/libimsmedia_jni.so
 lib64/librcc.so
 lib64/vendor.qti.imsrtpservice@1.0.so
-
-# SDM
-lib64/libsdm-disp-apis.so
-
-# Soter
--app/SoterService/SoterService.apk
