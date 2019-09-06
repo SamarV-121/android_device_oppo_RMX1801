@@ -8,4 +8,4 @@
 /persist(/.*)?           u:object_r:persist_file:s0
 
 # Lights HAL
-/system/bin/hw/android\.hardware\.light@2\.0-service\.oppo_RMX1801 u:object_r:hal_light_default_exec:s0
+/system/bin/hw/android\.hardware\.light@2\.0-service\.oppo_RMX1801 u:object_r:hal_light_sdm660_exec:s0
