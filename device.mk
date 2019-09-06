@@ -21,6 +21,9 @@ $(call inherit-product, vendor/oppo/RMX1801/RMX1801-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+endif
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -28,19 +31,23 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_policy_configuration.xml:system/etc/audio_policy_configuration.xml
-	
+
 # Display
 PRODUCT_PACKAGES += \
     libvulkan
-	
+
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common
 
+# Init
+PRODUCT_PACKAGES += \
+    init.target.rc
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.oppo_RMX1801
-	
+
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
@@ -59,10 +66,6 @@ PRODUCT_COPY_FILES += \
 
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
-
-ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
-endif
 
 # Telephony
 PRODUCT_PACKAGES += \
