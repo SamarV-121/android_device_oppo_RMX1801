@@ -1,3 +1,14 @@
+# Camera configs
+etc/camera/ashdr/ncf_pack.ncf
+etc/camera/faceTpl1.rgb32
+etc/camera/gasryuv.model
+etc/camera/faceTpl0.rgb32
+etc/camera/skinSeg.model
+etc/camera/cp/SystemParamsBokeh.bin
+etc/camera/cp/FusionCalibrationParams.bin
+etc/camera/cp/SystemParamsFusion.bin
+etc/camera/cp/CPCalibrationData.bin
+
 # Camera firmware
 etc/firmware/cpp_firmware_v1_5_0.fw
 etc/firmware/cpp_firmware_v1_1_1.fw
@@ -10,6 +21,45 @@ etc/firmware/cpp_firmware_v1_1_6.fw
 etc/firmware/cpp_firmware_v1_5_2.fw
 etc/firmware/cpp_firmware_v1_4_0.fw
 etc/firmware/cpp_firmware_v1_8_0.fw
+
+# Camera postprocessing
+etc/vstab_configs/vstab_db_720p_video_0_s5k2p7sq.config
+etc/vstab_configs/vstab_db_720p_video_1.config
+etc/vstab_configs/vstab_db_720p_video_0_sfov_main.config
+etc/vstab_configs/vstab_db_1080p_video_0_s5k2p7sq_sfov_bmi.config
+etc/vstab_configs/vstab_db_1080p_video_0_sfov_lsm.config
+etc/vstab_configs/vstab_db_720p_preview.config
+etc/vstab_configs/vstab_db_1080p_video_0_s5k2p7sq_sfov_main.config
+etc/vstab_configs/vstab_db_1080p_preview_0_imx519_bmi.config
+etc/vstab_configs/vstab_db_1350p_video_0_s5k2p7sq.config
+etc/vstab_configs/vstab_db_720p_video_0_sfov.config
+etc/vstab_configs/vstab_db_1080p_video_0_s5k2p7sq.config
+etc/vstab_configs/vstab_db_720p_video_0.config
+etc/vstab_configs/vstab_db_900p_video_0_s5k2p7sq.config
+etc/vstab_configs/vstab_db_900p_video_0.config
+etc/vstab_configs/vstab_db_1080p_video_1.config
+etc/vstab_configs/vstab_db_1080p_video_0.config
+etc/vstab_configs/vstab_db_1080p_video_0_imx519_bmi.config
+etc/vstab_configs/vstab_db_1080p_preview_0_imx519_lsm.config
+etc/vstab_configs/fsync_db.config
+etc/vstab_configs/vstab_db_720p_video_0_s5k2p7sq_sfov_main.config
+etc/vstab_configs/vstab_db_720p_video_0_imx519_lsm.config
+etc/vstab_configs/vstab_db_1080p_video_0_sfov_main.config
+etc/vstab_configs/vstab_db_720p_preview_0_imx519_bmi.config
+etc/vstab_configs/vstab_db_4k_preview.config
+etc/vstab_configs/vstab_db_720p_preview_0_imx519_lsm.config
+etc/vstab_configs/vstab_db_1080p_video_0_imx519_lsm.config
+etc/vstab_configs/vstab_db_720p_video_0_imx519_bmi.config
+etc/vstab_configs/vstab_db_720p_video_0_s5k2p7sq_sfov_bmi.config
+etc/vstab_configs/vstab_db_4k_video_0.config
+etc/vstab_configs/vstab_db_1080p_preview.config
+etc/vstab_configs/GyroOffset_db.config
+etc/vstab_configs/vstab_db_720p_video_0_s5k2p7sq_sfov.config
+etc/vstab_configs/vstab_db_1350p_video_0.config
+etc/vstab_configs/vstab_db_4k_video_1.config
+etc/vstab_configs/vstab_db_720p_video_0_sfov_lsm.config
+etc/vstab_configs/vstab_db_1080p_video_0_s5k2p7sq_sfov.config
+etc/vstab_configs/vstab_db_1080p_video_0_sfov.config
 
 # CNE
 etc/permissions/cneapiclient.xml
