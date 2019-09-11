@@ -74,6 +74,9 @@ TARGET_ENABLE_MEDIADRM_64 := true
 # Graphics
 TARGET_USES_HWC2 := true
 
+# HIDL
+DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
+
 # Properties
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
