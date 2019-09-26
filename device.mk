@@ -41,6 +41,10 @@ PRODUCT_PACKAGES += \
     libvulkan \
     vendor.display.config@1.0
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service.oppo_RMX1801
+
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common
