@@ -38,3 +38,6 @@
 
 # Touch HAL
 /system/bin/hw/lineage\.touch@1\.0-service\.oppo_RMX1801   u:object_r:hal_touch_sdm660_exec:s0
+
+# HIDL manifest
+/system/etc/manifest\.xml    u:object_r:vendor_configs_file:s0

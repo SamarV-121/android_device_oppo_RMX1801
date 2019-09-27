@@ -4,6 +4,7 @@ on post-fs
     mount none /system/etc/WCNSS_qcom_cfg.ini /vendor/etc/wifi/WCNSS_qcom_cfg.ini bind
     mount none /system/etc/p2p_supplicant_overlay.conf /vendor/etc/wifi/p2p_supplicant_overlay.conf bind
     mount none /system/etc/wpa_supplicant_overlay.conf /vendor/etc/wifi/wpa_supplicant_overlay.conf bind
+    mount none /system/etc/manifest.xml /vendor/etc/vintf/manifest.xml bind
     mount none /system/lib64/hw/power.qcom.so /vendor/lib64/hw/power.qcom.so bind
     mount none /system/lib64/soundfx/libvolumelistener.so /vendor/lib64/soundfx/libvolumelistener.so bind
     mount none /system/lib/soundfx/libvolumelistener.so /vendor/lib/soundfx/libvolumelistener.so bind
