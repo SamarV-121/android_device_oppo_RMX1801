@@ -1,5 +1,6 @@
 on init
     mount none /system/etc/audio_policy_configuration.xml /vendor/etc/audio/audio_policy_configuration.xml bind
+    mount none /system/etc/audio_output_policy.conf /vendor/etc/audio_output_policy.conf bind
     mount none /system/lib64/hw/power.qcom.so /vendor/lib64/hw/power.qcom.so bind
 
     # Boot time FS tune
