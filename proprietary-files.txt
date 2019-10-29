@@ -1,14 +1,3 @@
-# Camera configs
-etc/camera/ashdr/ncf_pack.ncf
-etc/camera/faceTpl1.rgb32
-etc/camera/gasryuv.model
-etc/camera/faceTpl0.rgb32
-etc/camera/skinSeg.model
-etc/camera/cp/SystemParamsBokeh.bin
-etc/camera/cp/FusionCalibrationParams.bin
-etc/camera/cp/SystemParamsFusion.bin
-etc/camera/cp/CPCalibrationData.bin
-
 # Camera firmware
 etc/firmware/cpp_firmware_v1_5_0.fw
 etc/firmware/cpp_firmware_v1_1_1.fw
@@ -75,8 +64,12 @@ framework/com.quicinc.cne.server-V1.0-java.jar
 framework/com.quicinc.cne.server-V2.0-java.jar
 framework/com.quicinc.cne.server-V2.1-java.jar
 framework/com.quicinc.cne.server-V2.2-java.jar
-framework/vendor.qti.data.factory-V1.0-java.jar
+framework/vendor.qti.hardware.data.latency-V1.0-java.jar
 framework/vendor.qti.hardware.data.qmi-V1.0-java.jar
+lib/com.quicinc.cne.server@1.0.so
+lib/vendor.qti.hardware.data.latency@1.0.so
+lib64/com.quicinc.cne.server@1.0.so
+lib64/vendor.qti.hardware.data.latency@1.0.so
 -priv-app/CNEService/CNEService.apk
 
 # DPM
@@ -96,14 +89,6 @@ lib64/libdpmframework.so
 lib64/libdpmtcm.so
 -priv-app/dpmserviceapp/dpmserviceapp.apk
 
-# Fingerprint sensor 
-framework/vendor.oppo.hardware.biometrics.fingerprint-V2.1-java.jar
-framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
-lib/vendor.oppo.hardware.biometrics.fingerprint@2.1.so
-lib64/vendor.oppo.hardware.biometrics.fingerprint@2.1.so
-lib/vendor.qti.hardware.fingerprint@1.0.so
-lib64/vendor.qti.hardware.fingerprint@1.0.so
-
 # Media
 lib64/libmmosal.so
 lib/extractors/libmmparser.so
@@ -117,13 +102,9 @@ etc/permissions/qti_libpermissions.xml|ef3c88495f2f61a2d16e1445113a9d80f8db0e0a
 etc/permissions/qti_permissions.xml
 
 # Radio
--app/datastatusnotification/datastatusnotification.apk|9e90143888117a85adfa2ad37586365a82256921
--app/embms/embms.apk|f45f19f139890bfc61a18b30acafe3566f47cf19
 -app/QtiTelephonyService/QtiTelephonyService.apk|febae0155520ca23ae22e0d2cd392a9b9afd1f18
-etc/permissions/embms.xml|5e1b492874c221a7e1188fc3a5369d32b3e67969
 etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
 etc/permissions/telephonyservice.xml|b297c8a27443570377d78586b00198839ce326bb
-framework/embmslibrary.jar|180d4d6b65d989023364457eb1bf6e1d45f7e274
 framework/qcrilhook.jar|568f66507f150ab74942f10686372a787f97839e
 framework/qti-telephony-common.jar|1bbfbe02a3d1245f6d112a1d97bf68917dd89c09
 framework/QtiTelephonyServicelibrary.jar|29e0cfb5d4e4834a6f36a87d404d8200d67bd4c0
@@ -131,15 +112,6 @@ framework/QtiTelephonyServicelibrary.jar|29e0cfb5d4e4834a6f36a87d404d8200d67bd4c
 
 # Radio - IMS
 -priv-app/ims/ims.apk|60d5244537db8a74ed0205ea6e9a5d5e20e40f3e
--app/imssettings/imssettings.apk|07a4998ffe58eea0be1b06f823ec0d5a06ea1edd
-etc/permissions/com.qualcomm.qti.imscmservice.xml|db25ef24f1937366d58a53b4f4b8923bc9e98d2d
-etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml|8d25bd7b79baf266950eb484c1a28817f891aec2
-etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml|998076243537f61f3683a3c083f7b27510617368
-framework/com.qualcomm.qti.imscmservice-V2.0-java.jar|bf61f8f984400f8cef339ed8c5c7e23e81285eb0
-framework/com.qualcomm.qti.imscmservice-V2.1-java.jar|fea937e1fb4145c4e6f93e8e58eda1d892f94c9a
-framework/com.qualcomm.qti.uceservice-V2.0-java.jar|d8464ecf6271b76cc381b21980886878a4a24f67
-framework/vendor.qti.ims.callinfo-V1.0-java.jar|2713a9e00a81738cf51d1ff53b37d413167bfb31
-framework/vendor.qti.ims.rcsconfig-V1.0-java.jar|52d59eab897fbfa00652a879b5a19ed3dc27ffa6
 lib64/lib-imsvideocodec.so|dd8bf8af793acdf020c9ace9eb2585755dd33b00
 lib64/lib-imsvt.so|8dafceb20cb519944b669278e61b532eed0d9060
 lib64/lib-imsvtextutils.so|4f5e33e1fce70dafdc9ed0de95440ccd262342d7
