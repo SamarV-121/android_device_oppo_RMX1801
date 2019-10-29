@@ -65,6 +65,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml
 
+# Power
+PRODUCT_PACKAGES += \
+    power.qcom
+
 # RCS
 PRODUCT_PACKAGES += \
     rcs_service_aidl \
