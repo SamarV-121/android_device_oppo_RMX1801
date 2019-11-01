@@ -9,25 +9,16 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
    ro.config.vc_call_vol_steps=7 \
    ro.config.media_vol_steps=25
 
-# Camera
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    persist.camera.HAL3.enabled=1
-
 # CNE
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.vendor.cne.feature=1
-
-# Data Modules
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    persist.vendor.data.mode=concurrent \
-    ro.vendor.use_data_netmgrd=true
 
 # Graphics
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     debug.sf.hw=1 \
     debug.sf.latch_unsignaled=1 \
-    debug.sf.enable_hwc_vds=1	
- 
+    debug.sf.enable_hwc_vds=1
+
 # HAL1 apps list
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android
@@ -51,7 +42,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.vendor.qti.core_ctl_max_cpu=4 \
     ro.vendor.qti.core_ctl_min_cpu=2 \
     vendor.iop.enable_prefetch_ofr=0 \
-    vendor.iop.enable_uxe=0	
+    vendor.iop.enable_uxe=0
 
 # Radio
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
