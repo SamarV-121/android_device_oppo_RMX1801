@@ -4,6 +4,7 @@ on init
     mount none /system/lib64/hw/power.qcom.so /vendor/lib64/hw/power.qcom.so bind
     mount none /system/lib64/soundfx/libvolumelistener.so /vendor/lib64/soundfx/libvolumelistener.so bind
     mount none /system/lib/soundfx/libvolumelistener.so /vendor/lib/soundfx/libvolumelistener.so bind
+    mount none /dev/null /vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc bind
 	
     # Boot time FS tune
     write /sys/block/sda/queue/iostats 0
@@ -53,3 +54,8 @@ service oppo_fingerprints_sh /vendor/bin/sh /vendor/bin/init.oppo.fingerprints.s
     class main
     user root
     oneshot
+
+service fps_hal /vendor/bin/hw/vendor.oppo.hardware.biometrics.fingerprint@2.1-service
+    class late_start
+    user system
+    group system input
