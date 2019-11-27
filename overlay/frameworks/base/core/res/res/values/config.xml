@@ -308,6 +308,8 @@
     <integer-array name="config_keyboardTapVibePattern">
         <item>40</item>
     </integer-array>
+
+    <bool name="config_inflateSignalStrength">true</bool>
 	
     <!-- Default list of files pinned by the Pinner Service -->
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
