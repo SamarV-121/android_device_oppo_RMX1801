@@ -1,8 +1,8 @@
 # Assertive display
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.qcom.ad=1 \
-    ro.qcom.ad.sensortype=2 \
-    ro.qcom.ad.calib.data=/vendor/etc/OPPO_OLED_AD_calib.cfg
+    ro.vendor.display.ad=1 \
+    ro.vendor.display.sensortype=2 \
+    ro.vendor.display.ad.sdr_calib_data=/vendor/etc/OPPO_OLED_AD_calib.cfg
 
 # Audio
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
