@@ -1,0 +1,3 @@
+on boot
+
+    write /mnt/vendor/opporeserve/media/Camera/chv_set 0

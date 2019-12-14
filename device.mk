@@ -58,7 +58,8 @@ PRODUCT_BOOT_JARS += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.target.rc
+    init.target.rc \
+    hal3.rc
 
 # Lights
 PRODUCT_PACKAGES += \
