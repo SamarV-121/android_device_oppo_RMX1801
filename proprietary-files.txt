@@ -92,9 +92,12 @@ etc/permissions/qti_libpermissions.xml|ef3c88495f2f61a2d16e1445113a9d80f8db0e0a
 etc/permissions/qti_permissions.xml
 
 # Radio
+-app/embms/embms.apk|f45f19f139890bfc61a18b30acafe3566f47cf19
 -app/QtiTelephonyService/QtiTelephonyService.apk|febae0155520ca23ae22e0d2cd392a9b9afd1f18
+etc/permissions/embms.xml|5e1b492874c221a7e1188fc3a5369d32b3e67969
 etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
 etc/permissions/telephonyservice.xml|b297c8a27443570377d78586b00198839ce326bb
+framework/embmslibrary.jar|180d4d6b65d989023364457eb1bf6e1d45f7e274
 framework/qcrilhook.jar|568f66507f150ab74942f10686372a787f97839e
 framework/qti-telephony-common.jar|1bbfbe02a3d1245f6d112a1d97bf68917dd89c09
 framework/QtiTelephonyServicelibrary.jar|29e0cfb5d4e4834a6f36a87d404d8200d67bd4c0
@@ -102,6 +105,7 @@ framework/QtiTelephonyServicelibrary.jar|29e0cfb5d4e4834a6f36a87d404d8200d67bd4c
 
 # Radio - IMS
 -priv-app/ims/ims.apk|60d5244537db8a74ed0205ea6e9a5d5e20e40f3e
+lib64/libdiag_system.so|81a47cb3a8c4a040cc0144ae15684b4dfe4e0dd6
 lib64/lib-imsvideocodec.so|dd8bf8af793acdf020c9ace9eb2585755dd33b00
 lib64/lib-imsvt.so|8dafceb20cb519944b669278e61b532eed0d9060
 lib64/lib-imsvtextutils.so|4f5e33e1fce70dafdc9ed0de95440ccd262342d7
