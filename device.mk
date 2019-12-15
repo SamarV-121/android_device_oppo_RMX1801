@@ -21,9 +21,9 @@ $(call inherit-product, vendor/oppo/RMX1801/RMX1801-vendor.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
+# ifneq ($(findstring lineage, $(TARGET_PRODUCT)),)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
-endif
+# endif
 
 # Audio
 PRODUCT_PACKAGES += \

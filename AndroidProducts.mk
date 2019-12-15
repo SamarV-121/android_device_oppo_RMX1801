@@ -1,4 +1,3 @@
-    
 #
 # Copyright (C) 2017 The LineageOS Open Source Project
 #
@@ -16,4 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_RMX1801.mk
+    $(LOCAL_DIR)/lineage_RMX1801.mk \
+    $(LOCAL_DIR)/aosp_RMX1801.mk
