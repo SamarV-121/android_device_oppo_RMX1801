@@ -37,7 +37,7 @@ const std::map<int32_t, TouchscreenGesture::GestureInfo> TouchscreenGesture::kGe
     {7, {66, "One finger down swipe", "/proc/touchpanel/down_swipe_enable"}},
     {8, {65, "One finger left swipe", "/proc/touchpanel/left_swipe_enable"}},
     {9, {247, "Letter M", "/proc/touchpanel/letter_m_enable"}},
-    {10, {249, "Letter O", "/proc/touchpanel/letter_o_enable"}},
+    {10, {250, "Letter O", "/proc/touchpanel/letter_o_enable"}},
     {11, {246, "Letter W", "/proc/touchpanel/letter_w_enable"}},
 };
 
