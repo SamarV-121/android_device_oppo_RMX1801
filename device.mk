@@ -42,6 +42,8 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
+    libdisplayconfig \
+    libqdMetaData.system \
     libvulkan \
     vendor.display.config@1.0
 
