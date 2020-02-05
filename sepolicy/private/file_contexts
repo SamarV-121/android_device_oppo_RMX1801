@@ -1,8 +1,10 @@
 # Audio
 /system/etc/audio_policy_configuration.xml    u:object_r:vendor_configs_file:s0
-/system/etc/audio_output_policy.conf    u:object_r:vendor_configs_file:s0
-/system/lib64/soundfx/libvolumelistener\.so   u:object_r:vendor_file:s0
-/system/lib/soundfx/libvolumelistener\.so     u:object_r:vendor_file:s0
+/system/lib/soundfx/libvolumelistener\.so u:object_r:vendor_file:s0
+/system/lib64/soundfx/libvolumelistener\.so u:object_r:vendor_file:s0
+
+# Data files
+/data/display(/.*)?   u:object_r:display_data_file:s0
 
 # Files in rootfs
 /bt_firmware(/.*)?       u:object_r:bt_firmware_file:s0
@@ -10,8 +12,29 @@
 /firmware(/.*)?          u:object_r:firmware_file:s0
 /persist(/.*)?           u:object_r:persist_file:s0
 
-# Lights HAL
-/system/bin/hw/android\.hardware\.light@2\.0-service\.oppo_RMX1801 u:object_r:hal_light_sdm660_exec:s0
+# Fingerprint
+/system/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.oppo_RMX1801    u:object_r:hal_fingerprint_sdm660_exec:s0
+
+# Light
+/sys/devices(/platform)?/soc/[a-z0-9]+.qcom,mdss_mdp/[a-z0-9]+.qcom,mdss_mdp:qcom,mdss_fb_primary/leds/lcd-backlight(/.*)?	u:object_r:sysfs_leds:s0
+/system/bin/hw/android\.hardware\.light@2\.0-service\.oppo_RMX1801    u:object_r:hal_light_sdm660_exec:s0
+
+# Livedisplay HAL
+/system/bin/hw/lineage\.livedisplay@2\.0-service-sdm  u:object_r:shal_livedisplay_default_exec:s0
+
+# Media
+/system/etc/media_profiles_vendor.xml u:object_r:vendor_configs_file:s0
+
+# Partitions
+/dev/block/mmcblk0rpmb   u:object_r:rpmb_device:s0
 
 # Power HAL
-/system/lib64/hw/power\.qcom\.so    u:object_r:vendor_file:s0
+/system/lib64/hw/power\.qcom\.so   u:object_r:vendor_file:s0
+
+# Wifi
+/system/etc/WCNSS_qcom_cfg.ini  u:object_r:vendor_configs_file:s0
+/system/etc/p2p_supplicant_overlay.conf u:object_r:vendor_configs_file:s0
+/system/etc/wpa_supplicant_overlay.conf u:object_r:vendor_configs_file:s0
+
+# Touch HAL
+/system/bin/hw/lineage\.touch@1\.0-service\.oppo_RMX1801   u:object_r:hal_touch_sdm660_exec:s0
