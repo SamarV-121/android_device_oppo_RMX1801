@@ -54,7 +54,7 @@ PRODUCT_PACKAGES += \
 
 # Doze
 PRODUCT_PACKAGES += \
-    RealmeParts
+    doze
 
 # Fingerprint
 PRODUCT_PACKAGES += \
