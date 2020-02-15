@@ -45,6 +45,12 @@ on property:sys.boot_completed=1
 
 on boot
 
+    # Disable edge limit control interface
+    write /proc/touchpanel/oppo_tp_limit_enable 0
+
+    # Enable oppo touchpanel direction
+    write /proc/touchpanel/oppo_tp_direction 1
+
     # Update touchscreen firmware
     chown system system /proc/touchpanel/tp_fw_update
     write /proc/touchpanel/tp_fw_update 1
