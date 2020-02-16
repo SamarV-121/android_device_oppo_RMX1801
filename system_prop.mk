@@ -27,7 +27,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # HAL1 apps list
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android
+    vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android,net.one97.paytm
 
 # IMS
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
