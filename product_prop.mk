@@ -22,7 +22,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     debug.sf.hw=1 \
     debug.sf.enable_gl_backpressure=1 \
-    debug.sf.early_phase_offset_ns=5000000 \
     debug.sf.latch_unsignaled=1 \
     debug.sf.enable_hwc_vds=1 \
     debug.gralloc.enable_fb_ubwc=1 \
