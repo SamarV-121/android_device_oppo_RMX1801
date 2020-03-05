@@ -112,7 +112,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # System properties
--include $(LOCAL_PATH)/system_prop.mk
+-include $(LOCAL_PATH)/product_prop.mk
 
 # Telephony
 PRODUCT_PACKAGES += \
