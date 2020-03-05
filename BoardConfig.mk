@@ -90,9 +90,6 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
     /vendor/dsp:/dsp \
     /vendor/firmware_mnt:/firmware
 
-# Releasetools
-TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
-
 # Telephony
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
@@ -103,10 +100,6 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
 # Vendor
 TARGET_COPY_OUT_VENDOR := vendor
-
-# Verified Boot
-BOARD_AVB_ENABLE := true
-BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
 
 # VNDK
 BOARD_VNDK_VERSION := current
