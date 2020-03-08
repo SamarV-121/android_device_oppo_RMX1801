@@ -29,7 +29,7 @@
 /dev/block/mmcblk0rpmb   u:object_r:rpmb_device:s0
 
 # Power HAL
-/system/lib64/hw/power\.qcom\.so   u:object_r:vendor_file:s0
+/system/bin/hw/android\.hardware.power@1\.2-service-qti   u:object_r:hal_power_default_exec:s0
 
 # Wifi
 /system/etc/WCNSS_qcom_cfg.ini  u:object_r:vendor_configs_file:s0
