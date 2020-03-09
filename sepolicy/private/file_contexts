@@ -43,4 +43,4 @@
 /system/etc/manifest\.xml    u:object_r:vendor_configs_file:s0
 
 # USB HAL
-/system/bin/hw/android\.hardware\.usb@1\.0-service\.basic u:object_r:hal_usb_default_exec:s0
+/system/bin/hw/android\.hardware\.usb@1\.0-service\.oppo_RMX1801 u:object_r:hal_usb_default_exec:s0
